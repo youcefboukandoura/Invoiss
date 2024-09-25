@@ -16,20 +16,20 @@ android {
 
     signingConfigs {
         debug {
-            keyAlias 'key0'
-            keyPassword 'alivar90'
-            storeFile file('/Users/apple/Workspace/Toptal/invoiss/keys.jks')
+//            keyAlias 'key0'
+//            keyPassword 'alivar90'
+//            storeFile file('/Users/apple/Workspace/Toptal/invoiss/keys.jks')
 
-            storePassword 'alivar90'
-            setV1SigningEnabled(true)
-            setV2SigningEnabled(false)
+//            storePassword 'alivar90'
+//            setV1SigningEnabled(true)
+//            setV2SigningEnabled(false)
         }
         release {
 
-            setV1SigningEnabled(true)
-            setV2SigningEnabled(false)
-            v1SigningEnabled true
-            v2SigningEnabled false
+//            setV1SigningEnabled(true)
+//            setV2SigningEnabled(false)
+//            v1SigningEnabled true
+//            v2SigningEnabled false
         }
     }
 
